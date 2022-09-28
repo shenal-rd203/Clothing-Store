@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>blanksclothing</title>
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+    <!--navigation bar-->
+    <header><h1>Blanks Clothing</h1>
+        <nav>
+            <ul>
+                <li><a href="#"> Catagories </a></li>
+                <li><a href="#"> Contact</a></li>
+                <li><a href="#"> About </a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr style="height: 4px; background-color:rgb(255, 136, 0); padding:0; margin:0;">
+
+    <!--main picture-->
+    <div class="top_container">
+        
+        <div class="top_text">
+            <p style="margin: 0px; padding-bottom: 0px; font-weight:bold; font-size: 350%;">New Arrivels</p>
+            <p style="margin: 0px; padding-bottom: 0px; font-weight:500; font-size: 120%;">#Theperfectfit</p><br>
+            <button href="#" class="main-btn">SHOP NOW</button>
+        </div>
+    </div>
+    
+    <!--discover-->
+    
+    <div style="text-align: left; padding: 20px 20px 0px 20px;"><div style="display:inline-flex; width:5px; height: 35px; background-color: rgb(180, 0, 0);"></div>
+        <span style="font-size: 50px;">Discover</span>
+    </div>
+    <div class="flex-container">
+        <div>
+            <img src="pictures/4767.jpg" alt="women wear" width="100%">
+            <a href="#" class="dis_button"> Women's wear </a>
+        </div>
+        <div>
+            <img src="pictures/FRONTWITHLOGO_ddafeda0-7997-4ca7-82f5-84a80ec5222e_600x.webp" alt="Men's wear">
+            <a href="#" class="dis_button"> Men's wear </a>
+        </div>
+        <div>
+            <img src="pictures/MegaMenu-Designers.jpg" alt="Kids wear">
+            <a href="#" class="dis_button"> Kids wear </a>
+        </div>  
+    </div>
+
+<!--Trending now-->
+    
+        <div style="text-align: left; padding: 20px 20px 10px 20px;">
+            <div style="display:inline-flex; width:5px; height: 35px; background-color: rgb(180, 0, 0);"></div>
+            <span style="font-size: 50px; text-transform:capitalize;">trending</span>
+        </div>
+        <span class="trending">
+            <div class="content">
+                <img src="pictures/watch.png" alt="watch">
+                <h3>Mi Smart Band 6</h3>
+                <h6>Rs.12500</h6>
+            
+                <button class="buy1">Buy now</button>
+            </div>
+
+            <div class="content">
+                <img src="pictures/shoes.webp" alt="shoes" width="100%">
+                <h3>Nike Revolution 5</h3>
+                <h6>Rs.6499</h6>
+                <button class="buy1">Buy now</button>
+            </div>
+
+            <div class="content">
+                <img src="pictures/shirt.webp" alt="shirt">
+                <h3>Hameedia T-shirt</h3>
+                <h6>Rs.5100</h6>
+                <button class="buy1">Buy now</button>
+            </div>
+
+            <div class="content">
+                <img src="pictures/women top.jpg" alt="">
+                <h3>Odel green top</h3>
+                <h6>Rs.4800</h6>
+                <button class="buy1">Buy now</button>
+            </div>
+        </span>
+        <button id="btnScrollToTop">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+        <footer>
+            <div class="footer-content">
+                <h3>Blanks clothing Company</h3>
+                <p>Edify your life style!</p>
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom"><p>copyright &copy;2022 blanksclothing. designed by</p><span>Shenal Rayantha</span></div>
+        </footer>
+        <script>
+            const btnScrollToTop = document.getElementById("btnScrollToTop");
+            btnScrollToTop.addEventListener("click", function(){
+                window.scrollTo(0,0);
+            });
+        </script>
+    </body>
+</html>
